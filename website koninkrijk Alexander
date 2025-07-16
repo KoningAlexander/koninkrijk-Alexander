@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koninkrijk Alexander</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(to right, #002b7f, #8b0000);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #222;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+    }
+    img.flag {
+      max-width: 100%;
+      border: 3px solid #002b7f;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Koninkrijk Alexander</h1>
+    <p>Onafhankelijk. Eerlijk. Eigen.</p>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#onafhankelijkheid">Onafhankelijkheid</a>
+    <a href="#grondwet">Grondwet</a>
+    <a href="#burgerschap">Burgerschap</a>
+  </nav>
+  <main>
+    <h2>Welkom in het Koninkrijk Alexander</h2>
+    <p>Het Koninkrijk Alexander is een onafhankelijke micronatie, opgericht uit de wens om een eigen samenleving te bouwen — met eigen regels, identiteit en symbolen.</p>
+    <img class="flag" src="vlag.png" alt="Vlag van Koninkrijk Alexander">
+
+    <h2 id="onafhankelijkheid">Onafhankelijkheidsverklaring</h2>
+    <p>Wij verklaren ons vrij, autonoom en soeverein. Het Koninkrijk Alexander bestaat als een vrije monarchie, geleid door Koning Alexander. Wij dragen onze vlag met trots: een leeuw en een capybara, symbool voor kracht en rust in balans.</p>
+
+    <h2 id="grondwet">Grondwet</h2>
+    <p>De grondwet legt vast dat Koning Alexander het staatshoofd is en de hoogste macht bezit. Wetten worden uitgevaardigd via koninklijke decreten. Burgers hebben symbolisch stemrecht over culturele aangelegenheden.</p>
+
+    <h2 id="burgerschap">Burgerschap</h2>
+    <p>Wil je burger worden van het Koninkrijk Alexander? Dat kan als je vloeiend Nederlands spreekt. Binnenkort verschijnt hier een inschrijfformulier.</p>
+  </main>
+  <footer>
+    &copy; Koninkrijk Alexander - Alle rechten voorbehouden
+  </footer>
+</body>
+</html>
